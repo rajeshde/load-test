@@ -1,0 +1,25 @@
+{
+  "name": "load-testing",
+  "version": "1.0.0",
+  "description": "Experinemnting on load testing",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js --exec babel-node"
+  },
+  "author": "Rajesh De",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
